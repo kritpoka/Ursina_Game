@@ -1,14 +1,7 @@
 from ursina import *
 from ursina.application import pause  
 from ursina.prefabs.first_person_controller import FirstPersonController
-
 import random2
-'''
-from re import T, escape
-from gtts import gTTS, lang
-import gtts
-import playsound
-'''
 
 app = Ursina()
 
@@ -39,11 +32,6 @@ window.exit_button.visible = False
 
 #random variables
 ran = random.randint(0,10)
-'''
-#speech
-greeting = gTTS(text='สวัสดีค่ะ ยินดีต้อนรับสู่เกมอันยิ่งใหญ่ของนักพัฒนาสุดหล่อ', lang='th')
-greeting.save("greeting.mp3")
-'''
 
 sound_background.play()
 
